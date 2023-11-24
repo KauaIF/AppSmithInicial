@@ -1,6 +1,7 @@
 export default {
 	myVar1: '2022-01-10',
 	myVar2: '2023-11-23T17:50:07.077Z',
+	a:Date(),
 	dateTransform (receivedDate) {
 		//const currentDate = new Date();
 		const daysOfWeek = ["Domingo", "Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado"];

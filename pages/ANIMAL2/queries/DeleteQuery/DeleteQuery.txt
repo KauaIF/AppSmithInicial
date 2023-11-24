@@ -1,0 +1,2 @@
+DELETE FROM ANIMAL
+  WHERE numero_de_registro = {{data_table.triggeredRow.numero_de_registro}};

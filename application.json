@@ -1,0 +1,47 @@
+{
+  "pages": [
+    {
+      "id": "ANIMAL2",
+      "isDefault": true
+    },
+    {
+      "id": "Quadro de Avisos Vacinas",
+      "isDefault": false
+    },
+    {
+      "id": "ANIMAL_VACINA",
+      "isDefault": false
+    },
+    {
+      "id": "Vacina",
+      "isDefault": false
+    },
+    {
+      "id": "Animal",
+      "isDefault": false
+    }
+  ],
+  "viewMode": false,
+  "appIsExample": false,
+  "unreadCommentThreads": 0,
+  "unpublishedApplicationDetail": {
+    "appPositioning": {
+      "type": "FIXED"
+    }
+  },
+  "color": "#F5D1D1",
+  "icon": "server",
+  "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
+  "publishedAppLayout": {
+    "type": "FLUID"
+  },
+  "unpublishedCustomJSLibs": [],
+  "publishedCustomJSLibs": [],
+  "evaluationVersion": 2,
+  "applicationVersion": 2,
+  "collapseInvisibleWidgets": true,
+  "isManualUpdate": false,
+  "deleted": false
+}

@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "Json",
+    "pageId": "Quadro de Avisos Vacinas",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Quadro de Avisos Vacinas_Json",
+  "deleted": false,
+  "gitSyncId": "655e3d733a44803b63ab8628_655fb6333a44803b63ab86b5"
+}

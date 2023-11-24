@@ -1,0 +1,8 @@
+INSERT INTO ANIMAL_VACINA (
+	fk_VACINA_id_vacina,
+	fk_ANIMAL_numero_de_registro,
+	data)
+VALUES (
+	'{{insert_form.formData.fk_VACINA_id_vacina}}',
+	'{{insert_form.formData.fk_ANIMAL_numero_de_registro}}',
+	'{{insert_form.formData.data}}');

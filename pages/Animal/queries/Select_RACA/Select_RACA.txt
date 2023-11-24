@@ -1,0 +1,6 @@
+SELECT
+  *
+FROM
+  RACA
+WHERE
+  id_raca LIKE '%{{select_raca1.filterText}}%'

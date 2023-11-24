@@ -1,0 +1,6 @@
+SELECT
+  *
+FROM
+  VACINA
+WHERE
+  tipo_vacina LIKE '%{{select_vacina.filterText}}%'

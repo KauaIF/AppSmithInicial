@@ -1,0 +1,4 @@
+SELECT id_raca FROM RACA WHERE raca = {{Select1.selectedOptionValue}};
+
+
+

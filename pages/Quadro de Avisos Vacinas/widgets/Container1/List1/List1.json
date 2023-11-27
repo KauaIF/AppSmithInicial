@@ -99,6 +99,7 @@
     "dynamicTriggerPathList": [],
     "primaryKeys": "{{List1.listData.map((currentItem, currentIndex) =>currentItem)}}",
     "gridType": "vertical",
+    "defaultSelectedItem": "",
     "key": "20z990a39g",
     "backgroundColor": "transparent",
     "isDeprecated": false,

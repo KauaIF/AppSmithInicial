@@ -87,7 +87,7 @@
     "currentItemsView": "{{[]}}",
     "triggeredItemView": "{{{}}}",
     "widgetName": "List1",
-    "listData": "{{\nselecao.data.map((objeto) => objeto)\n}}",
+    "listData": "{{\nRead_vacinas_do_dia\n}}",
     "dynamicPropertyPathList": [{"key": "primaryKeys"}],
     "displayName": "List",
     "bottomRow": 43,

@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "mysql-plugin",
   "unpublishedAction": {
-    "name": "selecao",
+    "name": "Read_vacinas_do_dia",
     "datasource": {
       "name": "Bac Mini",
       "pluginId": "mysql-plugin",
@@ -26,7 +26,7 @@
         }
       ]
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
@@ -38,7 +38,7 @@
     "userPermissions": [],
     "createdAt": "2023-11-23T20:54:17Z"
   },
-  "id": "Quadro de Avisos Vacinas_selecao",
+  "id": "Quadro de Avisos Vacinas_Read_vacinas_do_dia",
   "deleted": false,
   "gitSyncId": "655e3d733a44803b63ab8628_655fbbf9ea7abd50592395d4"
 }

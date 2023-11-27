@@ -1,18 +1,17 @@
 {
     "boxShadow": "none",
     "iconSVG": "/static/media/icon.a7b19dc8b31d68fcff57f1d2c0084a18.svg",
-    "labelText": "Raça",
-    "topRow": 7,
+    "labelText": "Label",
+    "topRow": 18,
     "labelWidth": 5,
     "type": "SELECT_WIDGET",
     "serverSideFiltering": false,
-    "defaultOptionValue": "",
+    "defaultOptionValue": "GREEN",
     "animateLoading": true,
-    "leftColumn": 19,
+    "leftColumn": 3,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
-        {"key": "borderRadius"},
-        {"key": "sourceData"}
+        {"key": "borderRadius"}
     ],
     "placeholderText": "Select option",
     "isDisabled": false,
@@ -27,33 +26,45 @@
     ],
     "isLoading": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileBottomRow": 41,
-    "widgetName": "select_raca",
+    "mobileBottomRow": 25,
+    "widgetName": "Select1",
     "isFilterable": true,
     "displayName": "Select",
     "searchTags": ["dropdown"],
-    "bottomRow": 14,
+    "bottomRow": 25,
     "parentRowSpace": 10,
     "hideCard": false,
-    "mobileRightColumn": 35,
-    "parentColumnSpace": 19.8125,
-    "dynamicTriggerPathList": [],
+    "mobileRightColumn": 23,
+    "parentColumnSpace": 16.75,
     "labelPosition": "Top",
-    "sourceData": "{{Select_RACA1_nome_e_id.data}}",
-    "key": "pkdjq3indw",
+    "sourceData": [
+        {
+            "code": "BLUE",
+            "name": "Blue"
+        },
+        {
+            "code": "GREEN",
+            "name": "Green"
+        },
+        {
+            "code": "RED",
+            "name": "Red"
+        }
+    ],
+    "key": "2l93sjl6zo",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,
-    "rightColumn": 39,
-    "widgetId": "1r21y2gjvz",
-    "optionValue": "raca",
+    "rightColumn": 18,
+    "widgetId": "elolw5csuh",
+    "optionValue": "code",
     "minWidth": 450,
     "parentId": "0",
     "labelAlignment": "left",
     "renderMode": "CANVAS",
-    "mobileTopRow": 34,
-    "optionLabel": "raca",
+    "mobileTopRow": 18,
+    "optionLabel": "name",
     "responsiveBehavior": "fill",
-    "mobileLeftColumn": 15,
+    "mobileLeftColumn": 3,
     "maxDynamicHeight": 9000,
     "minDynamicHeight": 4
 }

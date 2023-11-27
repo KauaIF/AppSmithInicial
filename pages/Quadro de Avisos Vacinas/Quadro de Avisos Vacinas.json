@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 530,
+          "bottomRow": 620,
           "containerStyle": "none",
           "snapRows": 124,
           "parentRowSpace": 1,
@@ -26,7 +26,33 @@
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
-        "layoutOnLoadActions": [],
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Quadro de Avisos Vacinas_dataHoje.datePadrao",
+              "name": "dataHoje.datePadrao",
+              "collectionId": "Quadro de Avisos Vacinas_dataHoje",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "function (receivedDate) {\n  const month = receivedDate.getMonth() + 1;\n  const day = receivedDate.getDate();\n  const year = receivedDate.getFullYear();\n  return `${year}-${month}-${day}`;\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Quadro de Avisos Vacinas_Read_vacinas_do_dia",
+              "name": "Read_vacinas_do_dia",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "dataHoje.datePadrao.data(new Date())"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
         "id": "Quadro de Avisos Vacinas",

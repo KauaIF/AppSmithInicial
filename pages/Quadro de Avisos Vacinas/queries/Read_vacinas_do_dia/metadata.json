@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT VACINA.tipo_vacina,ANIMAL.nome_de_registro FROM VACINA \nINNER JOIN ANIMAL_VACINA ON VACINA.id_vacina = ANIMAL_VACINA.fk_VACINA_id_vacina\nINNER JOIN ANIMAL ON ANIMAL_VACINA.fk_ANIMAL_numero_de_registro = ANIMAL.numero_de_registro\nWHERE ANIMAL_VACINA.data = '2023-11-24';\n",
+      "body": "SELECT VACINA.tipo_vacina,ANIMAL.nome_de_registro FROM VACINA \nINNER JOIN ANIMAL_VACINA ON VACINA.id_vacina = ANIMAL_VACINA.fk_VACINA_id_vacina\nINNER JOIN ANIMAL ON ANIMAL_VACINA.fk_ANIMAL_numero_de_registro = ANIMAL.numero_de_registro\nWHERE ANIMAL_VACINA.data = '{{dataHoje.datePadrao.data(new Date())}}';\n",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -26,12 +26,18 @@
         }
       ]
     },
-    "executeOnLoad": false,
-    "dynamicBindingPathList": [],
+    "executeOnLoad": true,
+    "dynamicBindingPathList": [
+      {
+        "key": "body"
+      }
+    ],
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [],
+    "jsonPathKeys": [
+      "dataHoje.datePadrao.data(new Date())"
+    ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],

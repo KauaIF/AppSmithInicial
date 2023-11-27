@@ -35,7 +35,7 @@
     "delimiter": ",",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
     "isVisibleFilters": true,
-    "isVisible": false,
+    "isVisible": true,
     "enableClientSideSearch": true,
     "version": 3,
     "totalRecordsCount": "",

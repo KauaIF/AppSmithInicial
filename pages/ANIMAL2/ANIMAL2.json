@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 890,
+          "bottomRow": 1230,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -50,17 +50,7 @@
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
-                "Select1.filterText"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "ANIMAL2_getIDbyNameRaca",
-              "name": "getIDbyNameRaca",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "Select1.selectedOptionValue"
+                "Raca.filterText"
               ],
               "timeoutInMillisecond": 10000
             }

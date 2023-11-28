@@ -3,4 +3,4 @@ SELECT
 FROM
   RACA
 WHERE
-  raca LIKE '%{{Select1.filterText}}%'
+  raca LIKE '%{{Raca.filterText}}%'

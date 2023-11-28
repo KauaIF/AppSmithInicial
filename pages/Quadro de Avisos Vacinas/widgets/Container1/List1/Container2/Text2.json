@@ -27,7 +27,7 @@
     "leftColumn": 16,
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Vacina: {{currentItem[\"tipo_vacina\"]}}\nPara o cão: {{currentItem[\"nome_de_registro\"]}}",
+    "text": "{{\nJson.pegaDados(currentItem)\n}}",
     "key": "hbl10pb5b0",
     "isDeprecated": false,
     "rightColumn": 52,

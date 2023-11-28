@@ -47,7 +47,8 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": []
+    "userPermissions": [],
+    "createdAt": "2023-11-23T17:25:24Z"
   },
   "id": "ANIMAL2_InsertQuery",
   "deleted": false,

@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "pegaJson",
-    "fullyQualifiedName": "Json.pegaJson",
+    "name": "pegaDados",
+    "fullyQualifiedName": "Json.pegaDados",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -20,7 +20,11 @@
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "selfReferencingDataPaths": [],
-      "jsArguments": []
+      "jsArguments": [
+        {
+          "name": "content"
+        }
+      ]
     },
     "executeOnLoad": false,
     "dynamicBindingPathList": [
@@ -36,7 +40,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Quadro de Avisos Vacinas_Json.pegaJson",
+  "id": "Quadro de Avisos Vacinas_Json.pegaDados",
   "deleted": false,
-  "gitSyncId": "655e3d733a44803b63ab8628_65662b601cba1770c0fb400f"
+  "gitSyncId": "655e3d733a44803b63ab8628_656628031cba1770c0fb4006"
 }

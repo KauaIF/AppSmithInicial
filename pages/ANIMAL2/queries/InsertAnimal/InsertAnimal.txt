@@ -1,0 +1,9 @@
+INSERT INTO ANIMAL (nome_de_registro, apelido, proprietario_anterior, data_de_nascimento, numero_de_microchip, numero_de_registro, data_de_aquisicao, idade_do_animal_no_ato_de_aquisicao, valor_da_aquisicao, box, numero_patrimonio, FK_RACA_id_raca, FK_PELAGEM_id_pelagem, FK_SEXO_id_sexo, FK_FORMA_DE_AQUISICAO_id_forma)
+  VALUES ('{{NomeRegistro}}','{{Apelido}}', '{{Proprietario_Anterior}}', '{{DataNascimento}}', 1, '', '2019-07-01', 1, '', 1, '', 1, 1, 1, 1);
+	
+INSERT INTO ANIMAL_VACINA (data, fk_ANIMAL_numero_de_registro, fk_VACINA_id_vacina)
+VALUES (
+	('{{dataHoje.datePadrao(new Date(select_data.selectedDate.toString()))}}')
+	,(SELECT numero_de_registro FROM ANIMAL WHERE nome_de_registro = '{{select_cao.selectedOptionLabel}}')
+	, (SELECT id_vacina FROM VACINA WHERE tipo_vacina = '{{select_raca1.selectedOptionLabel}}')
+)

@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1230,
+          "bottomRow": 1880,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -45,12 +45,38 @@
           ],
           [
             {
-              "id": "ANIMAL2_Select_RACA1_nome_e_id",
-              "name": "Select_RACA1_nome_e_id",
+              "id": "ANIMAL2_getAllFormaAquisicao",
+              "name": "getAllFormaAquisicao",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "ANIMAL2_getAllNomeSexo",
+              "name": "getAllNomeSexo",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "ANIMAL2_getAllPelagem",
+              "name": "getAllPelagem",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "ANIMAL2_getAllNomeRaca",
+              "name": "getAllNomeRaca",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
-                "Raca.filterText"
+                "LabelRaca.filterText"
               ],
               "timeoutInMillisecond": 10000
             }

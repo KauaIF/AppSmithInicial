@@ -1,0 +1,4 @@
+SELECT
+  sexo
+FROM
+  SEXO

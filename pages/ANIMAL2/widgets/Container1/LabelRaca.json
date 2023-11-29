@@ -14,7 +14,7 @@
         {"key": "borderRadius"},
         {"key": "sourceData"}
     ],
-    "placeholderText": "Select option",
+    "placeholderText": "Selecione uma Opção",
     "isDisabled": false,
     "isRequired": false,
     "dynamicHeight": "FIXED",
@@ -28,7 +28,7 @@
     "isLoading": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileBottomRow": 53,
-    "widgetName": "Raca",
+    "widgetName": "LabelRaca",
     "isFilterable": true,
     "dynamicPropertyPathList": [],
     "displayName": "Select",
@@ -43,7 +43,7 @@
         {"key": "onOptionChange"}
     ],
     "labelPosition": "Top",
-    "sourceData": "{{Select_RACA1_nome_e_id.data}}",
+    "sourceData": "{{getAllNomeRaca.data}}",
     "key": "q2xpw3x4j8",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,

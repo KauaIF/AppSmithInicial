@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "mysql-plugin",
   "unpublishedAction": {
-    "name": "getIDbyNameRaca",
+    "name": "getAllPelagem",
     "datasource": {
       "name": "Bac Mini",
       "pluginId": "mysql-plugin",
@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT id_raca FROM RACA WHERE raca = {{LabelRaca.selectedOptionValue}};\n\n\n\n",
+      "body": "SELECT pelagem FROM PELAGEM;",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -26,25 +26,19 @@
         }
       ]
     },
-    "executeOnLoad": false,
-    "dynamicBindingPathList": [
-      {
-        "key": "body"
-      }
-    ],
+    "executeOnLoad": true,
+    "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [
-      "LabelRaca.selectedOptionValue"
-    ],
+    "jsonPathKeys": [],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2023-11-23T18:27:27Z"
+    "createdAt": "2023-11-29T17:11:42Z"
   },
-  "id": "ANIMAL2_getIDbyNameRaca",
+  "id": "ANIMAL2_getAllPelagem",
   "deleted": false,
-  "gitSyncId": "655e3d733a44803b63ab8628_655f998f3a44803b63ab8683"
+  "gitSyncId": "655e3d733a44803b63ab8628_656770ce751f63218f3aafbd"
 }

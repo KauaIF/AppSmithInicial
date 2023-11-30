@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "pegaDados",
-    "fullyQualifiedName": "Json.pegaDados",
+    "name": "treyLogar",
+    "fullyQualifiedName": "JSObject1.treyLogar",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -13,18 +13,14 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Quadro de Avisos Vacinas",
-    "collectionId": "Quadro de Avisos Vacinas_Json",
+    "pageId": "LoginAPI",
+    "collectionId": "LoginAPI_JSObject1",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "selfReferencingDataPaths": [],
-      "jsArguments": [
-        {
-          "name": "content"
-        }
-      ]
+      "jsArguments": []
     },
     "executeOnLoad": false,
     "dynamicBindingPathList": [
@@ -38,9 +34,10 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": []
+    "userPermissions": [],
+    "createdAt": "2023-11-30T22:05:51Z"
   },
-  "id": "Quadro de Avisos Vacinas_Json.pegaDados",
+  "id": "LoginAPI_JSObject1.treyLogar",
   "deleted": false,
-  "gitSyncId": "655e3d733a44803b63ab8628_6568d8b8751f63218f3ab0e2"
+  "gitSyncId": "655e3d733a44803b63ab8628_6569073f751f63218f3ab138"
 }

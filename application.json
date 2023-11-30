@@ -15,6 +15,10 @@
     {
       "id": "Cães Cadastrados",
       "isDefault": false
+    },
+    {
+      "id": "LoginAPI",
+      "isDefault": false
     }
   ],
   "viewMode": false,

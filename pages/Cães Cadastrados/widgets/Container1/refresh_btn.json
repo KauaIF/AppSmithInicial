@@ -2,7 +2,7 @@
     "labelTextSize": "0.875rem",
     "boxShadow": "none",
     "widgetName": "refresh_btn",
-    "rightColumn": 64,
+    "rightColumn": 63,
     "onClick": "{{SelectQuery.run()}}",
     "iconName": "refresh",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",

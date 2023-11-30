@@ -20,12 +20,12 @@
     "animateLoading": true,
     "parentColumnSpace": 18.396484375,
     "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 47,
+    "leftColumn": 49,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
         {"key": "borderRadius"}
     ],
-    "text": "Cadastrar de cães",
+    "text": "Cadastrar cães",
     "isDisabled": false,
     "key": "xx3kfmrehg",
     "isDeprecated": false,

@@ -106,7 +106,7 @@
     "rightColumn": 56,
     "widgetId": "rhxj3l8jc1",
     "minWidth": 450,
-    "isVisible": true,
+    "isVisible": false,
     "version": 1,
     "parentId": "asfzuc2ds8",
     "tags": ["Buttons"],

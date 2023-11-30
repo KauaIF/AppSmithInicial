@@ -1,3 +1,0 @@
-INSERT INTO ANIMAL_VACINA (data, fk_ANIMAL_numero_de_registro, fk_VACINA_id_vacina)
-VALUES (('{{dataHoje.datePadrao(new Date(select_data.selectedDate.toString()))}}'),(SELECT numero_de_registro FROM ANIMAL WHERE nome_de_registro = '{{select_cao.selectedOptionLabel}}'), (SELECT id_vacina FROM VACINA WHERE tipo_vacina = '{{select_raca1.selectedOptionLabel}}'))
-

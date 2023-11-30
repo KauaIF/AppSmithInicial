@@ -1,2 +1,0 @@
-DELETE FROM ANIMAL_VACINA
-  WHERE fk_VACINA_id_vacina = {{data_table.triggeredRow.fk_VACINA_id_vacina}};

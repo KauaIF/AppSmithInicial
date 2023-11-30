@@ -1,7 +1,7 @@
 {
   "pages": [
     {
-      "id": "ANIMAL2",
+      "id": "Cadastro de Cão",
       "isDefault": true
     },
     {
@@ -9,15 +9,11 @@
       "isDefault": false
     },
     {
-      "id": "ANIMAL_VACINA",
-      "isDefault": false
-    },
-    {
       "id": "Vacina",
       "isDefault": false
     },
     {
-      "id": "Animal",
+      "id": "Cães Cadastrados",
       "isDefault": false
     }
   ],

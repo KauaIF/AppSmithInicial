@@ -1,6 +1,0 @@
-SELECT
-  *
-FROM
-  ANIMAL
-WHERE
-  apelido LIKE '%{{select_cao.filterText}}%'

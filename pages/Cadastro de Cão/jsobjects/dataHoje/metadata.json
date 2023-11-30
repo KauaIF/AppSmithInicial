@@ -1,0 +1,20 @@
+{
+  "unpublishedCollection": {
+    "name": "dataHoje",
+    "pageId": "Cadastro de Cão",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "a",
+        "value": "Date()"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "Cadastro de Cão_dataHoje",
+  "deleted": false,
+  "gitSyncId": "655e3d733a44803b63ab8628_65677832751f63218f3aafc9"
+}

@@ -1,4 +1,0 @@
-UPDATE ANIMAL_VACINA SET
-		fk_ANIMAL_numero_de_registro = '{{update_form.fieldState.fk_ANIMAL_numero_de_registro.isVisible ? update_form.formData.fk_ANIMAL_numero_de_registro : update_form.sourceData.fk_ANIMAL_numero_de_registro}}',
-		data = '{{update_form.fieldState.data.isVisible ? update_form.formData.data : update_form.sourceData.data}}'
-WHERE fk_VACINA_id_vacina = {{data_table.selectedRow.fk_VACINA_id_vacina}};
